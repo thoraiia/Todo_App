@@ -12,7 +12,7 @@ describe('Should Check All The Functionalities Of The SignUp Page',() => {
         cy.intercept('POST','**/api/v1/users/register',{
             fixture:'Register_Intercept',
             statusCode: 201
-        })
+        }).as('register')
 
         cy.get('[data-testid="first-name"]').type('aaa');
         cy.get('[data-testid="last-name"]').type('bbb');
