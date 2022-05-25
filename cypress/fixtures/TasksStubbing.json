@@ -1,9 +1,33 @@
 {
     "tasks":[
         {
-            "isCompleted":false,
-            "_id":"628cf7631e093e22e8639717",
-            "item":"Learn Fake Cypress",
+            "isCompleted":true,
+            "_id":"628cf7631e093e22e8639710",
+            "item":"Learn 1 Cypress",
+            "userID":"628a51aa923a5312f4594f86",
+            "createdAt":"2022-05-24T15:18:59.993Z",
+            "__v":0
+        },
+        {
+            "isCompleted":true,
+            "_id":"628cf7631e093e22e8639711",
+            "item":"Learn 2 Cypress",
+            "userID":"628a51aa923a5312f4594f86",
+            "createdAt":"2022-05-24T15:18:59.993Z",
+            "__v":0
+        },
+        {
+            "isCompleted":true,
+            "_id":"628cf7631e093e22e8639712",
+            "item":"Learn 3 Cypress",
+            "userID":"628a51aa923a5312f4594f86",
+            "createdAt":"2022-05-24T15:18:59.993Z",
+            "__v":0
+        },
+        {
+            "isCompleted":true,
+            "_id":"628cf7631e093e22e8639713",
+            "item":"Learn 4 Cypress",
             "userID":"628a51aa923a5312f4594f86",
             "createdAt":"2022-05-24T15:18:59.993Z",
             "__v":0
@@ -17,8 +41,40 @@
             "__v":0
         },
         {
-            "isCompleted":false,
+            "isCompleted":true,
             "_id":"628cf7631e093e22e8639718",
+            "item":"Learn Testing",
+            "userID":"628a51aa923a5312f4594f86",
+            "createdAt":"2022-05-24T15:18:59.993Z",
+            "__v":0
+        },
+        {
+            "isCompleted":false,
+            "_id":"628cf7631e093e22e8639720",
+            "item":"Learn Testing",
+            "userID":"628a51aa923a5312f4594f86",
+            "createdAt":"2022-05-24T15:18:59.993Z",
+            "__v":0
+        },
+        {
+            "isCompleted":false,
+            "_id":"628cf7631e093e22e8639721",
+            "item":"Learn Testing",
+            "userID":"628a51aa923a5312f4594f86",
+            "createdAt":"2022-05-24T15:18:59.993Z",
+            "__v":0
+        },
+        {
+            "isCompleted":false,
+            "_id":"628cf7631e093e22e8639722",
+            "item":"Learn Testing",
+            "userID":"628a51aa923a5312f4594f86",
+            "createdAt":"2022-05-24T15:18:59.993Z",
+            "__v":0
+        },
+        {
+            "isCompleted":false,
+            "_id":"628cf7631e093e22e8639723",
             "item":"Learn Testing",
             "userID":"628a51aa923a5312f4594f86",
             "createdAt":"2022-05-24T15:18:59.993Z",
