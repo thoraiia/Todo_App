@@ -128,7 +128,7 @@ describe('Should Check All The Functionalities Of The SignUp Page',() => {
     })
 
     //same password 
-    it.only('Should not Show an error message if the Password is correct',() => {
+    it('Should not Show an error message if the Password is correct',() => {
         cy.get('[data-testid="first-name"]').type('aaa');
         cy.get('[data-testid="last-name"]').type('bbb');
         cy.get('[data-testid="email"]').type('correct.email@gmail.com');

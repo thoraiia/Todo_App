@@ -67,7 +67,7 @@ describe('Should Check All The Functionalities Of The Welcome Message',() => {
     })
 
 
-    it.only("Should not show the first name if it's less than 2 characters",() => {
+    it("Should not show the first name if it's less than 2 characters",() => {
         
         localStorage.setItem('user',
         '{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGQ1NzE2YjUzYzM3MDc0YzVhZjExMSIsImZpcnN0TmFtZSI6ImFhYSIsImxhc3ROYW1lIjoiYmJiIiwiaWF0IjoxNjUzNDMwMDM4fQ.rxBIk4z4QDv3WBmc-18dB_HsEECtOdfVC-_L4rJQO50","userID":"628d5716b53c37074c5af111","firstName":"m"}'

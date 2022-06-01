@@ -24,7 +24,7 @@ describe('Should Check All The Functionalities Of The Todos Page',() => {
     })
 
 
-    it.only('should send a post request with the correct data if the task name is more than 2 characters',()=>{
+    it('should send a post request with the correct data if the task name is more than 2 characters',()=>{
 
         cy.intercept('POST','**/api/v1/tasks','{}').as('addedTask');
 
