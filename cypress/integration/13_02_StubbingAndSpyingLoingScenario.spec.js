@@ -32,7 +32,7 @@ describe('Stubbing And Spying Login Scenario',() => {
         cy.get('[data-testid="submit"]').click();  // This line will trigger the intercept command
         cy.wait('@allTasks').then((xhr)=>{
            //we can add out assertions here
-            cy.log(xhr.response.body.tasks[0].item)
+            //cy.log(xhr.response.body.tasks[0].item)
         })
        
     })
