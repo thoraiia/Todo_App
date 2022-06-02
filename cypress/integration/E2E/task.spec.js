@@ -6,10 +6,7 @@ describe('test all E2E scenarios', () => {
 
     it("should be able to add update and delete a task", () =>{
         cy.visit('/');
-        cy.get('[data-testid="email"]').type('hakuna.matata@gmail.com');
-        cy.get('[data-testid="password"]').type('Test123!');
-        cy.get('[data-testid="submit"]').click();
-        cy.get('[data-testid="welcome"]').should("be.visible");
+        cy.login('hakuna.matata@gmail.com','Test123!');
 
 
         cy.get('[data-testid="add"]').click();
